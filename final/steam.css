@@ -1,0 +1,158 @@
+html{
+    font: sans-serif;
+    /* color: white; */
+    background-color: rgb(42, 73, 103);
+    min-width: 1000px;
+    min-height: 800px;
+}
+body{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list-title div{
+    white-space: pre-line;
+}
+.heatmap div{
+    white-space: pre-line;
+}
+.wrap{
+    display: flex;
+}
+
+.horizontal-line {
+    border-top: 2px solid #ffffff; /* 设置水平线的颜色和样式 */
+    margin: 0; /* 去除默认的 margin */
+    padding: 5px;
+}
+
+/* Content */
+.content{
+    flex-grow: 1;
+    width: 60vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    padding-left: 8vw;
+	text-align: center;
+}
+
+/*Right*/
+.RightTags{
+    flex-grow: 2;
+    width: 20vw;
+    padding: 15px;
+    margin-top: 5vh;
+    padding-right: 8vw;
+    height: 75vh;
+    font: 15px sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: rgb(95, 134, 173); */
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Pie Chart */
+.pie{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30vw 45vh;
+    padding-right: 2vw;
+}
+
+.pie-chart{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(31, 52, 74);
+    align-items: top;
+}
+.dist1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 20vw;
+    border-radius: 8px;
+    background-color: rgb(31, 52, 74);
+    align-items: top;
+}
+.dist2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 56vw;
+    height: 22vw;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(31, 52, 74);
+    align-items: top;
+}
+.dist2-items{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 55vw;
+    height: 20vw;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(31, 52, 74);
+    align-items: top;
+}
+.dist-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 20vw;
+    border-radius: 8px;
+    margin-left: auto;
+    /* margin-right: auto; */
+    /* align-items: top; */
+}
+
+/* Game List */
+.game{display: flex; flex-direction: column;  height: 80vh; width: 60vw;color: white; font: 15px sans-serif; margin: 5px;}
+.list-title {background-color: rgb(42, 73, 103); text-align: left;}
+.game-item {background-color: rgb(42, 73, 103);}
+.game-item:hover {background-color: rgb(82, 128, 174);}
+
+.game-list{
+    flex: 1;
+    width: 60vw;
+    border: none;
+    overflow-y: hidden;
+    color: white;
+    background-color: rgb(42, 73, 103);
+    font: 12px sans-serif;
+    text-align: left;
+}
+.game-list:hover{
+    overflow-y: auto;
+}
+
+/* system */
+.system{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font:15px sans-serif;
+}
+.heatmap{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
